@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ForteBioExtendedExperiment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1">
+  <DataSegment>
+    <Segment>
+      <Path>C:\Users\Labuser\Desktop\Laras\20230125_AR2G_1OLD_INVERSE\Experiment_1</Path>
+    </Segment>
+  </DataSegment>
+  <CommonSettings>
+    <ExperimentSettings>
+      <ExperimentPath>C:\Users\Labuser\Desktop\Laras\20230125_AR2G_1OLD_INVERSE\Experiment_1</ExperimentPath>
+      <CustomTraceColors />
+      <KineticReportPoints />
+      <FullTraceReportPoints />
+      <AssayInfo />
+    </ExperimentSettings>
+  </CommonSettings>
+  <PreprocessSettings>
+    <CorrectionSettings>
+      <RootSensorByLocation>false</RootSensorByLocation>
+      <SensorReference>
+        <Plate Index="0" Size="96">
+          <RefWells>A4, B4, C4, D4, E4, F4, G4, H4</RefWells>
+          <RefLoadWells />
+          <RefDetectionWells />
+          <RefGroup>
+            <RefWells>A4</RefWells>
+            <RelatedWells>A3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>B4</RefWells>
+            <RelatedWells>B3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>C4</RefWells>
+            <RelatedWells>C3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>D4</RefWells>
+            <RelatedWells>D3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>E4</RefWells>
+            <RelatedWells>E3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>F4</RefWells>
+            <RelatedWells>F3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>G4</RefWells>
+            <RelatedWells>G3</RelatedWells>
+          </RefGroup>
+          <RefGroup>
+            <RefWells>H4</RefWells>
+            <RelatedWells>H3</RelatedWells>
+          </RefGroup>
+          <ExcludeWells />
+        </Plate>
+        <GroupRefByPlate>false</GroupRefByPlate>
+      </SensorReference>
+      <SampleReference>
+        <Plate Index="0" Size="96">
+          <RefWells>A5, A6, A7</RefWells>
+          <RefLoadWells />
+          <RefDetectionWells />
+          <RefGroup>
+            <RefWells>A5, A6, A7</RefWells>
+            <RelatedWells>B5, C5, D5, E5, F5, G5, H5, B6, C6, D6, E6, F6, G6, H6, B7, C7, D7, E7, F7, G7, H7</RelatedWells>
+          </RefGroup>
+          <ExcludeWells />
+        </Plate>
+        <GroupRefByPlate>false</GroupRefByPlate>
+      </SampleReference>
+      <AlignmentSettings>
+        <AlignYCorrection>AverageBaseline</AlignYCorrection>
+        <AlignYStart>115.007006835938</AlignYStart>
+        <AlignYEnd>120.007006835938</AlignYEnd>
+        <InterstepCorrection>None</InterstepCorrection>
+        <InterstepCorrectionTime>0</InterstepCorrectionTime>
+        <SavitzkyGolayFilter>true</SavitzkyGolayFilter>
+      </AlignmentSettings>
+      <QuantSettings>
+        <AnalysisStep>0</AnalysisStep>
+        <FlipData>false</FlipData>
+        <IgnoreError>false</IgnoreError>
+        <AlignXStart>0</AlignXStart>
+        <AlignX>false</AlignX>
+      </QuantSettings>
+    </CorrectionSettings>
+  </PreprocessSettings>
+</ForteBioExtendedExperiment>
